@@ -17,8 +17,8 @@ Public Class MangaDbContext
         modelBuilder.Entity(Of AnalistaSuporte)().HasRequired(Function(a) a.Pessoa).WithMany().HasForeignKey(Function(a) a.PessoaId)
 
         modelBuilder.Entity(Of Pessoa)().ToTable("Pessoas")
-        modelBuilder.Entity(Of Pessoa)().ToTable("Pessoas")
-        modelBuilder.Entity(Of Pessoa)().ToTable("Pessoas")
+        modelBuilder.Entity(Of AnalistaSuporte)().ToTable("AnalistasSuporte")
+        modelBuilder.Entity(Of Desenvolvedor)().ToTable("Desenvolvedores")
 
     End Sub
 
