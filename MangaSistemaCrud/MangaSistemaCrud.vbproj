@@ -92,6 +92,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -195,6 +196,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.vb" />
+    <Compile Include="Models\DesenvolvedorPessoaViewModel.vb" />
+    <Compile Include="Models\AnalistaPessoaViewModel.vb" />
     <Compile Include="Models\AnalistaSuporte.vb" />
     <Compile Include="Models\Desenvolvedor.vb" />
     <Compile Include="Models\Pessoa.vb" />
@@ -227,6 +230,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Imagens\MangaFundoPreto.png" />
+    <Content Include="Content\Style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -251,7 +255,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Pessoa\Pessoa.vbhtml" />
     <Content Include="Views\Pessoa\Login.vbhtml" />
-    <Content Include="Views\Pessoa\_Registrar.vbhtml" />
+    <Content Include="Views\Desenvolvedor\PrincipalDesenvolvedor.vbhtml" />
+    <Content Include="Views\AnalistaSuporte\PrincipalAnalista.vbhtml" />
+    <Content Include="Views\Pessoa\_DadosUsuario.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -285,11 +291,7 @@
     <Content Include="Views\Shared\_Layout.vbhtml" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\AnalistaSuporte\" />
-    <Folder Include="Views\Desenvolvedor\" />
-    <Folder Include="Views\Registrar\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />

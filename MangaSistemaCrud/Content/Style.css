@@ -1,0 +1,47 @@
+﻿ .navbar-custom {
+            background-color: #1A5276; /* Cor de fundo azul escuro */
+            border-color: #0E2F44; /* Cor da borda */
+        }
+
+            .navbar-custom .navbar-brand {
+                color: #ffffff; /* Cor do texto */
+            }
+
+                .navbar-custom .navbar-brand:hover,
+                .navbar-custom .navbar-brand:focus {
+                    color: #ffffff; /* Cor do texto ao passar o mouse ou focar */
+                }
+
+            .navbar-custom .navbar-toggle {
+                border-color: #ffffff; /* Cor do ícone do botão toggle */
+            }
+
+                .navbar-custom .navbar-toggle:hover,
+                .navbar-custom .navbar-toggle:focus {
+                    background-color: #0E2F44; /* Cor de fundo do ícone do botão toggle ao passar o mouse ou focar */
+                }
+
+                .navbar-custom .navbar-toggle .icon-bar {
+                    background-color: #ffffff; /* Cor das barras do ícone do botão toggle */
+                }
+
+            .navbar-custom .navbar-collapse {
+                border-color: #0E2F44; /* Cor da borda da área de colapso */
+            }
+
+            .navbar-custom .navbar-nav > li > a {
+                color: #ffffff; /* Cor dos links */
+            }
+
+                .navbar-custom .navbar-nav > li > a:hover,
+                .navbar-custom .navbar-nav > li > a:focus {
+                    color: #ffffff; /* Cor dos links ao passar o mouse ou focar */
+                    background-color: #0E2F44; /* Cor de fundo dos links ao passar o mouse ou focar */
+                }
+
+            .navbar-custom .navbar-nav > .active > a,
+            .navbar-custom .navbar-nav > .active > a:hover,
+            .navbar-custom .navbar-nav > .active > a:focus {
+                color: #ffffff; /* Cor dos links ativos */
+                background-color: #0E2F44; /* Cor de fundo dos links ativos */
+            }
